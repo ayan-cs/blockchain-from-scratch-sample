@@ -1,1 +1,1 @@
-# blockchain-from-scratch-sample
+# Blockchain implementation (Sample Demo)
