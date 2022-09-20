@@ -1,4 +1,4 @@
-# Blockchain implementation (Sample Demo)
+# Blockchain Implementation (Sample Demo)
 
 This is my solution of Blockchain implementation for the fulfillment of Assignment-1 of the course **Introduction to Blockchain** *(Instructor : Dr. Debashis Das; Run : Fall 2022).*
 
