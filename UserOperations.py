@@ -21,7 +21,6 @@ def addUser(username):
         with open(os.path.join(path, 'Blockchain_System', miner, 'users.json'), 'r') as f:
             users = json.load(f)
         if len(users) > 0:
-            #print(miner, users[0].items(), len(users[0].items()), '\n')
             if len(users[0].items()) < min_user:
                 min_user = len(users[0].items())
                 min_miner = miner
