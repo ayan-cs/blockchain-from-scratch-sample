@@ -188,11 +188,11 @@ class Miner:
                     return 0
             return 1
         elif len(chain) > 0:
-            prev_block = chain[-1]
-            if hashlib.sha256(str(block['nonce']**2 - prev_block['nonce']**2).encode()).hexdigest()[:4] != '0000':
+            block = chain[-1]
+            if block['nonce'] != 1:
                 print("PoW False")
                 return 0
-            if block['previous_hash'] != hashlib.sha256(str(codecs.encode(pickle.dumps(prev_block), 'base64').decode()).encode()).hexdigest():
+            if block['previous_hash'] != '0000':
                 print("Prev Hash False")
                 return 0
             return 1
