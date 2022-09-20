@@ -7,7 +7,7 @@ This is my solution of Blockchain implementation for the fulfillment of Assignme
 For adding Miner(s), follow these steps :
 - Copy and paste any of the Miners' folder and edit the `Miner_x.py` file in the appropriate places. Replace `x` with suitable number.
 - Remove all Users and Transactions from `users.json` and `transactions.json` files respectively. Keep the `all_users.json` and `blockchain.json` unchanged.
-- Make necessary changes in Miner's number in `verify_selection_thread.py` file.
+- Make necessary changes in Miner's number in `verify_chain_thread.py` file.
 
 ### Leader Selection
 
