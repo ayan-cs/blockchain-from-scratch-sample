@@ -24,6 +24,6 @@ This is a Menu Driven code from the perspective of an End User. The user has to 
 
 ## Instructions for Execution
 
-- Open one terminal for each of the Miners and start executing `verify_chain_thread.py`. This will keep on verifying the existing blockchain for malicious/altered blocks at a certain interval.
+- Open one terminal/CMD for each of the Miners and start executing `verify_chain_thread.py`. This will keep on verifying the existing blockchain for malicious/altered blocks at a certain interval.
 - Open one terminal/CMD and start executing `leader_selection_thread.py`. This will keep on assigning Mining workload on each of the miners in a sequential manner.
 - Open a Terminal/CMD and start executing `UserOperations.py`. From here, you can register yourself as a user. Add multiple users in the network and perform some transactions. You can see the changes to be reflected on the corresponding files inside Miners' folders.
