@@ -27,3 +27,11 @@ This is a Menu Driven code from the perspective of an End User. The user has to 
 - Open one terminal/CMD for each of the Miners and start executing `verify_chain_thread.py`. This will keep on verifying the existing blockchain for malicious/altered blocks at a certain interval.
 - Open one terminal/CMD and start executing `leader_selection_thread.py`. This will keep on assigning Mining workload on each of the miners in a sequential manner.
 - Open a Terminal/CMD and start executing `UserOperations.py`. From here, you can register yourself as a user. Add multiple users in the network and perform some transactions. You can see the changes to be reflected on the corresponding files inside Miners' folders.
+
+## Instructions for Assignment-2
+
+This is a continuation of Assignment-1. Here, one needs to find certain values from the blockchain network created in Assignment-1.
+
+- Open one terminal/CMD and run `A2.py`.
+- For Q3, you need to enter a valid hash of a block.
+- Executing the script will produce necessary outputs.
